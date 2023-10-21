@@ -1,53 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hey, Welcome</title>
-    <link rel="stylesheet" href="./input.css">
-</head>
-<body class="!overflow-x-hidden">
-    <div class="w-[99vw] h-[100vh] ">
-    <div class="flex justify-center items-center relative flex-col sm:justify-between sm:mx-8 sm:flex-row">
-            <div class="p-3 w-fit absolute inset-0 sm:hidden">
-                <div class="w-6 h-0.5 bg-black my-1"></div>
-                <div class="w-6 h-[3px] bg-black my-1"></div>
-                <div class="w-6 h-0.5 bg-black"></div>
-            </div>
-            <h2 class="uppercase first-letter:text-teal-500 text-3xl my-1 tracking-widest font-medium text-center">Developer</h2>
-    
-        <div class="itms w-[100vw] h-[90vh] sm:w-auto px-8 my-5 sm:bg-inherit hidden sm:inline sm:h-auto">
-            <ul class="flex flex-col gap-2 sm:gap-12 text-[28px] sm:flex-row ">
-                <a href="#"><li class="transition-all ease-in hover:scale-110 hover:text-teal-500 duration-150">Home</li></a>
-                <a href="#"><li class="transition-all ease-in hover:scale-110 hover:text-teal-500 duration-150" >About</li></a>
-                <a href="#"><li class="transition-all ease-in hover:scale-110 hover:text-teal-500 duration-150">Services</li></a>
-                <a href="#"><li class="transition-all ease-in hover:scale-110 hover:text-teal-500 duration-150">Skills</li></a>
-                <a href="#"><li class="transition-all ease-in hover:scale-110 hover:text-teal-500 duration-150">Contacts</li></a>
-            </ul>
+    <link rel="stylesheet" href="./input.css" />
+  </head>
+  <body class="!overflow-x-hidden">
+    <div class="w-[99vw] h-[100vh]">
+      <div
+        class="flex justify-center items-center relative flex-col sm:justify-between sm:mx-8 sm:flex-row"
+      >
+        <div class="p-3 w-fit absolute inset-0 sm:hidden">
+          <div class="w-6 h-0.5 bg-black my-1"></div>
+          <div class="w-6 h-[3px] bg-black my-1"></div>
+          <div class="w-6 h-0.5 bg-black"></div>
         </div>
-    
-    </div>
+        <h2
+          class="uppercase first-letter:text-teal-500 text-3xl my-1 tracking-widest font-medium text-center"
+        >
+          Developer
+        </h2>
+
+        <div
+          class="itms w-[100vw] h-[90vh] sm:w-auto px-8 my-5 sm:bg-inherit hidden sm:inline sm:h-auto"
+        >
+          <ul class="flex flex-col gap-2 sm:gap-12 text-[28px] sm:flex-row">
+            <a href="#"
+              ><li
+                class="transition-all ease-in hover:scale-110 hover:text-teal-500 duration-150"
+              >
+                Home
+              </li></a
+            >
+            <a href="#about"
+              ><li
+                class="transition-all ease-in hover:scale-110 hover:text-teal-500 duration-150"
+              >
+                About
+              </li></a
+            >
+            <a href="#skills"
+              ><li
+                class="transition-all ease-in hover:scale-110 hover:text-teal-500 duration-150"
+              >
+                Skills
+              </li></a
+            >
+            <a href="#"
+              ><li
+                class="transition-all ease-in hover:scale-110 hover:text-teal-500 duration-150"
+              >
+                Services
+              </li></a
+            >
+            <a href="#"
+              ><li
+                class="transition-all ease-in hover:scale-110 hover:text-teal-500 duration-150"
+              >
+                Contacts
+              </li></a
+            >
+          </ul>
+        </div>
+      </div>
+
+      <!-- Home Page -->
+      <div
+        class="w-[90vw] h-[100vh] flex justify-center sm:justify-around items-center relative inset-5"
+      >
+        <div class="w-full">
+          <h1 class="text-[2.8rem] uppercase font-semibold mx-3">
+            <span class="text-teal-500">Adarsh</span> Pandit,
+          </h1>
+          <h2 class="text-4xl font-[400] tracking-[18px] uppercase mx-3">
+            Developer
+          </h2>
+          <p class="text-lg tracking-wide sm:w-[60%] mx-3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Nesciunt,at ut coporibus, optio vero dolorum ab excepturi neque
+            possimus dolore quod blanditiis! Culpa nihil provident eaque?
+          </p>
+          <span class="flex gap-5 my-5 mx-3">
+            <a href="#"
+              ><button
+                class="text-lg font-normal tracking-wider px-2 py-1 border-2 border-teal-500 border-solid rounded-md transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-teal-500 hover:text-white duration-300"
+              >
+                know More
+              </button></a
+            >
+            <a href="#"
+              ><button
+                class="text-lg font-normal tracking-wider px-2 py-1 border-2 bg-teal-500 border-teal-500 border-solid rounded-md text-white transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-transparent hover:text-black"
+              >
+                Download Cv
+              </button></a
+            >
+          </span>
+        </div>
+        <div
+          class="shapes absolute inset-y-[150px] inset-x-1/2 -z-10 sm:relative sm:inset-auto"
+        >
+          <div
+            class="w-[150px] h-[150px] sm:w-[250px] sm:h-[250px] bg-sky-400 rounded-full"
+          ></div>
+          <div
+            class="w-[200px] h-[200px] bg-yellow-400 rounded-full absolute -inset-32"
+          ></div>
+          <div
+            class="w-[250px] h-[250px] bg-orange-400 rounded-full absolute -inset-x-52 inset-y-28"
+          ></div>
+        </div>
+      </div>
 
 
-    <!-- Home Page -->
-    <div class="w-[90vw] h-[85vh] flex justify-center sm:justify-around items-center relative inset-5">
-       <div class="w-full">
-        <h1 class="text-[2.8rem] uppercase font-semibold mx-3"> <span class="text-teal-500">Adarsh</span> Pandit,</h1>
-        <h2 class="text-4xl font-[400] tracking-[18px] uppercase mx-3">Developer</h2>
-        <p class="text-lg tracking-wide sm:w-[60%] mx-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt,at ut coporibus, optio vero dolorum ab excepturi neque possimus dolore quod blanditiis! Culpa nihil provident eaque?</p>
-        <span class="flex gap-5 my-5 mx-3">
-            <a href="#"><button class="text-lg font-normal tracking-wider px-2 py-1 border-2 border-teal-500 border-solid rounded-md transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-teal-500 hover:text-white duration-300">know More</button></a>
-            <a href="#"><button class="text-lg font-normal tracking-wider px-2 py-1 border-2 bg-teal-500 border-teal-500 border-solid rounded-md text-white transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-transparent hover:text-black">Download Cv</button></a>
-        </span>
-    </div>
-    <div class="shapes absolute inset-y-[150px] inset-x-1/2 -z-10 sm:relative sm:inset-auto">
-        <div class="w-[150px] h-[150px] sm:w-[250px] sm:h-[250px] bg-sky-400 rounded-full"></div>
-        <div class="w-[200px] h-[200px] bg-yellow-400 rounded-full absolute -inset-32"></div>
-        <div class="w-[250px] h-[250px] bg-orange-400 rounded-full absolute -inset-x-52 inset-y-28"></div>
+      <!-- A B O U T  -->
+      <div class="w-[100vw] md:h-[150vh] lg:h-[100vh]" id="about">
+        <h2 class="px-2 py-3 text-[3rem] uppercase tracking-widest text-center">
+          About Me
+        </h2>
+        <div class="m-4">
+          <div class="flex sm:justify-between items-center relative">
+            <img class="absolute inset-0  top-14 -z-10 h-[50%] w-[100%] sm:w-[45%] sm:relative" src="./img.jpg" alt="image" />
+            <div class="sm:w-[50%]">              <h2 class="font-normal text-center sm:text-left text-4xl sm:text-6xl">
+                I'm <span class="text-teal-700">Adarsh</span> Pandit
+              </h2>
+              <p class="sm:w-[90%] text-2xl mt-4">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
+                tempore numquam nisi molestias expedita eligendi mollitia, ullam
+                delectus est harum laboriosam. A eos tempore quis reprehenderit
+                similique rem culpa enim ipsum ut! Sequi ipsam pariatur possimus
+                est aperiam! Reprehenderit, beatae. Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit. Quisquam, voluptatum. Lorem ipsum
+              </p>
+              <div class="pt-7 flex gap-6 sm:gap-8 flex-wrap">
+                <div class="flex flex-col">
+                    <h2 class="text-2xl sm:text-3xl text-teal-700">Experince</h2>
+                    <h3 class="text-xl sm:text-2xl">5 Years</h3>
+                </div>
 
-    </div>
-    </div>
-</div>
-    
-</body>
+                <div class="flex flex-col ml-6">
+                    <h2 class="text-2xl sm:text-3xl text-teal-700">Education</h2>
+                    <h3 class="text-xl sm:text-2xl">Xyz Collage</h3>
+                </div>
+
+                <div class="flex flex-col">
+                    <h2 class="text-2xl sm:text-3xl text-teal-700">FreeLancer</h2>
+                    <h3 class="text-xl sm:text-2xl">Avaliable</h3>
+                </div>
+                
+                <div class="flex flex-col ml-6">
+                    <h2 class="text-2xl sm:text-3xl text-teal-700">From</h2>
+                    <h3 class="text-xl sm:text-2xl">West Bengal</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- S K I L L S -->
+    <div class="w-[100vw] sm:h-[100vh] pb-[3rem]" id="skills">
+        <h2 class="px-2 py-3 text-[3rem] uppercase tracking-widest text-center">
+          My Skills
+        </h2>
+        <div class="m-4">
+          <div class="flex justify-between items-center relative">
+            <div class="">              
+              <div class="pt-7 flex gap-6 sm:gap-8 flex-wrap">
+                <div class="flex flex-col">
+                    <h2 class="text-2xl sm:text-3xl text-teal-700">ABC</h2>
+                    <div class="w-[90vw] sm:w-[30vw] h-[10px] bg-gray-300 rounded-full">
+                        <div class="w-[80%] h-[10px] bg-teal-500 rounded-full"></div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col">
+                    <h2 class="text-2xl sm:text-3xl text-teal-700">XYZ</h2>
+                    <div class="w-[90vw] sm:w-[30vw] h-[10px] bg-gray-300 rounded-full">
+                        <div class="w-[70%] h-[10px] bg-teal-500 rounded-full"></div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col">
+                    <h2 class="text-2xl sm:text-3xl text-teal-700">XYZ</h2>
+                    <div class="w-[90vw] sm:w-[30vw] h-[10px] bg-gray-300 rounded-full">
+                        <div class="w-[60%] h-[10px] bg-teal-500 rounded-full"></div>
+                    </div>
+                </div>
+                
+                <div class="flex flex-col">
+                    <h2 class="text-2xl sm:text-3xl text-teal-700">XYZ LANG</h2>
+                    <div class="w-[90vw] sm:w-[30vw] h-[10px] bg-gray-300 rounded-full">
+                        <div class="w-[50%] h-[10px] bg-teal-500 rounded-full"></div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col">
+                    <h2 class="text-2xl sm:text-3xl text-teal-700">XYZ LANG</h2>
+                    <div class="w-[90vw] sm:w-[30vw] h-[10px] bg-gray-300 rounded-full">
+                        <div class="w-[50%] h-[10px] bg-teal-500 rounded-full"></div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col">
+                    <h2 class="text-2xl sm:text-3xl text-teal-700">XYZ LANG</h2>
+                    <div class="w-[90vw] sm:w-[30vw] h-[10px] bg-gray-300 rounded-full">
+                        <div class="w-[50%] h-[10px] bg-teal-500 rounded-full"></div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col">
+                    <h2 class="text-2xl sm:text-3xl text-teal-700">XYZ LANG</h2>
+                    <div class="w-[90vw] sm:w-[30vw] h-[10px] bg-gray-300 rounded-full">
+                        <div class="w-[50%] h-[10px] bg-teal-500 rounded-full"></div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col">
+                    <h2 class="text-2xl sm:text-3xl text-teal-700">XYZ LANG</h2>
+                    <div class="w-[90vw] sm:w-[30vw] h-[10px] bg-gray-300 rounded-full">
+                        <div class="w-[50%] h-[10px] bg-teal-500 rounded-full"></div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col">
+                    <h2 class="text-2xl sm:text-3xl text-teal-700">XYZ LANG</h2>
+                    <div class="w-[90vw] sm:w-[30vw] h-[10px] bg-gray-300 rounded-full">
+                        <div class="w-[50%] h-[10px] bg-teal-500 rounded-full"></div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col">
+                    <h2 class="text-2xl sm:text-3xl text-teal-700">XYZ LANG</h2>
+                    <div class="w-[90vw] sm:w-[30vw] h-[10px] bg-gray-300 rounded-full">
+                        <div class="w-[50%] h-[10px] bg-teal-500 rounded-full"></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+  </body>
 </html>
