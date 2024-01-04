@@ -13,16 +13,16 @@
 <body class="!overflow-x-hidden">
   <div class="w-[99vw] h-[100vh]">
     <div class="flex justify-center items-center relative flex-col sm:justify-between sm:mx-8 sm:flex-row">
-      <div class="p-3 w-fit absolute inset-0 sm:hidden">
-        <div class="w-6 h-0.5 bg-black my-1"></div>
-        <div class="w-6 h-[3px] bg-black my-1"></div>
-        <div class="w-6 h-0.5 bg-black"></div>
+      <div class="p-3 w-fit absolute inset-0 sm:hidden" id="menu-button">
+        <div class="lines w-6 h-0.5 bg-black my-1 rotate-12"></div>
+        <div class="lines w-6 h-[3px] bg-black my-1"></div>
+        <div class="lines w-6 h-0.5 bg-black"></div>
       </div>
       <h2 class="uppercase first-letter:text-teal-500 text-3xl my-1 tracking-widest font-medium text-center">
         Developer
       </h2>
 
-      <div class="itms w-[100vw] h-[90vh] sm:w-auto px-8 my-5 sm:bg-inherit hidden sm:inline sm:h-auto">
+      <div class="w-[100vw] sm:w-auto px-8 my-5 sm:bg-inherit sm:inline sm:h-auto " id="menu">
         <ul class="flex flex-col gap-2 sm:gap-12 text-[28px] sm:flex-row">
           <a href="#">
             <li class="text-xl transition-all ease-in hover:scale-110 hover:text-teal-500 duration-150">
@@ -287,7 +287,7 @@
   </div>
 
   <!-- Certificates -->
-  <div class="w-[100vw] sm:h-[auto] pb-[3rem]" id="achivements">
+  <div class="w-[100vw] sm:h-[auto] pb-[3rem] relative" id="achivements">
     <h2 class="px-2 py-3 text-2xl sm:text-[3rem] uppercase tracking-widest text-center">
       <i class="fa-solid fa-trophy text-3xl text-yellow-500"></i> Achivements <i class="fa-solid fa-trophy text-3xl text-yellow-500"></i>
     </h2>
@@ -295,21 +295,21 @@
       
       <div class="w-[90vw] sm:w-[25vw] sm:h-80 pb-6 rounded-lg overflow-hidden bg-gray-300 flex flex-col group">
         <div class="group-hover:scale-110 group-hover:-translate-y-10 transition-all">
-        <img class="" src="https://images.unsplash.com/photo-1682686581362-796145f0e123?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcwNDM2OTQ3Nw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" alt="Certificates">
+        <img class="imge" src="https://images.unsplash.com/photo-1682686581362-796145f0e123?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcwNDM2OTQ3Nw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" alt="Certificates">
         </div>
         <div class="content px-4 pb-5 relative">
           <h2 class="font-medium text-xl group-hover:-translate-y-5 transition py-2">Python Programming - Cerfiticates</h2>
-          <button class="opacity-0 group-hover:-translate-y-5 group-hover:opacity-100 transition-all border-2 border-purple-600 text-black px-5 pb-0.5 rounded-2xl hover:bg-purple-600 hover:text-white absolute right-12">View</button>
+          <!-- <button class="opacity-0 group-hover:-translate-y-5 group-hover:opacity-100 transition-all border-2 border-purple-600 text-black px-5 pb-0.5 rounded-2xl hover:bg-purple-600 hover:text-white absolute right-12">View</button> -->
         </div>
       </div>
 
       <div class="w-[90vw] sm:w-[25vw] sm:h-80 pb-6 rounded-lg overflow-hidden bg-gray-300 flex flex-col group">
         <div class="group-hover:scale-110 group-hover:-translate-y-10 transition-all">
-        <img class="" src="https://images.unsplash.com/photo-1682686581362-796145f0e123?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcwNDM2OTQ3Nw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" alt="Certificates">
+        <img class="imge" src="https://images.unsplash.com/photo-1682686581362-796145f0e123?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcwNDM2OTQ3Nw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" alt="Certificates">
         </div>
         <div class="content px-4 pb-5 relative">
           <h2 class="font-medium text-xl group-hover:-translate-y-5 transition py-2">Python Programming - Cerfiticates</h2>
-          <button class="opacity-0 group-hover:-translate-y-5 group-hover:opacity-100 transition-all border-2 border-purple-600 text-black px-5 pb-0.5 rounded-2xl hover:bg-purple-600 hover:text-white absolute right-12">View</button>
+          <!-- <button class="opacity-0 group-hover:-translate-y-5 group-hover:opacity-100 transition-all border-2 border-purple-600 text-black px-5 pb-0.5 rounded-2xl hover:bg-purple-600 hover:text-white absolute right-12">View</button> -->
         </div>
       </div>
 
@@ -443,11 +443,20 @@
           </a>
       </div>
       <p class="mt-8 text-base leading-6 text-center text-gray-400">
-          © 2021 SomeCompany, Inc. All rights reserved.
+          © 2023 Dev Adarsh, Pvt. All rights reserved.
       </p>
   </div>
 </section>
 
+
+<script>
+  const btn = document.querySelector('#menu-button');
+  const list = document.querySelector('#menu');
+  btn.addEventListener('click', () => {
+    list.classList.toggle('hidden');
+  })
+
+</script>
 
 </body>
 
