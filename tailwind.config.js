@@ -2,7 +2,13 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'greyish': '#686868',
+        'redish': '#5f5f5f',
+        'redly': '#982800',
+      }
+    },
   },
   plugins: [],
 }

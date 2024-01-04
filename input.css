@@ -4,4 +4,25 @@
 * {
     scroll-behavior: smooth
 }
+    input:focus + label, input:valid + label {
+        font-size: 11px;
+        top: -7px;
+        background-color: white;
+      }
+      input:focus + label {
+        color: teal;
+      }
+      textarea:focus + label, textarea:valid + label {
+        font-size: 11px;
+        top: -7px;
+        background-color: white;
+      }
+      textarea:focus + label {
+        color: teal;
+      }
+      input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+margin: 0;
+      }
+
 @tailwind utilities;
