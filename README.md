@@ -8,17 +8,30 @@ This is just a practice foe me to learn the tailwind css
 
 ## How can You use This?
 
-```bash
-// 1. Fork The Repo
-// 2. Clone In Your local Machine using git:
+```shell
+# 1. Fork The Repo
+# 2. Clone In Your local Machine using git:
 git clone https://github.com/yourUsername/Tailwind-portfolio.git
+# go to portfolio folder.
 cd Tailwind-portfolio
-// 3. Edit Things as per your need.
-// 4. Push changes.
+# Install required dependencies.
+npm install .
+npm run start
+# 3. Edit Things as per your need.
+# 4. Push changes.
 git add .
 git commit -m "Some message"
 git push
-// 5. Deploy Wherever you want
+# 5. Deploy Wherever you want
+```
+
+### Note: This is free to use portfolio but don't forget to mention the credits.
+```js
+// Copyrights
+"All the codes are written by respected owner [Dev Adarsh]."
+// Repo Link
+"https://github.com/yourUsername/Tailwind-portfolio.git"
+
 ```
 
 # Credits
